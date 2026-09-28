@@ -1,0 +1,49 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime data and generated artifacts
+data/*
+!data/.gitkeep
+database/*
+!database/.gitkeep
+generated/*
+!generated/.gitkeep
+
+# Downloaded local model files
+models/*
+!models/.gitkeep
+*.gguf
+*.safetensors
+
+# Logs and local application state
+*.log
+instance/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
