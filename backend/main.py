@@ -89,7 +89,7 @@ def create_app():
     app = Flask(
         __name__,
         template_folder=str(FRONTEND_DIR),
-        static_folder=str(FRONTEND_DIR / "static"),
+        static_folder=str(FRONTEND_DIR),
         static_url_path="/static",
     )
     app.config.update(
